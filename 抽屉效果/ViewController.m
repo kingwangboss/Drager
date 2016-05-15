@@ -47,7 +47,7 @@
     
     //获取偏移量
     CGPoint transP = [pan  translationInView:self.mainV];
-    
+     
     
     self.mainV.frame = [self frameWithOffsetX:transP.x];
     //判断拖动的方向
